@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<form action="/home" method="post">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Adicionar Parcela</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <label>ID</label>
+            <input type="number" name="id" value="ID" />
+        </div>
+        <div class="col-md-6">
+            <label>Parcela</label>
+            <input type="number" name="parcela" value="Parcela" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <input type="submit" name="btnEnviar" value="Enviar" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @ViewBag.texto
+        </div>
+    </div>
+</form>
