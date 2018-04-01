@@ -1,0 +1,7 @@
+*.ide-wal
+*.dll
+*.pdb
+*.dll
+*.pdb
+*.cache
+*.ide
